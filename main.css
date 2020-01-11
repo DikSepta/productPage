@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body {
+    background-color:ghostwhite; 
+    font-family: 'Roboto Slab', serif;
+}
+
+#header-img {
+    height: 75px;
+    width: 105px;
+}
+
+#header {
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+    background-color:ghostwhite;    
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.nav-link:hover{
+    color: darkblue;
+    background-color: rgb(192, 236, 253);
+}
+
+#intro-title{
+    display: block;
+}
+
+#introduction{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    text-align: center;    
+}
+
+#feature-containter {
+    display: grid;
+    width: 50vw;
+    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    align-items: center; 
+    grid-row-gap: 10px;   
+}
+
+.features  {
+    display: flex;
+    align-items: center;
+}
+.features p{
+    display: inline;
+}
+
+#buy {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: space-around;
+}
+
+.buy-item {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    border-width: 1px;
+}
+
+.buy-item img{
+    width: 13vw;    
+    height: 7vw;    
+}
+
+.radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-radius: 0;
+    border-width: 2px;
+    border-color: navy;
+}
+
+.radio:checked{
+    background-color: darkcyan;    
+}
+
+.enter-mail{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#email{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px 5px 2px 5px;
+}
+
+#button{
+    background-color: rgb(250, 171, 24);
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 2px 5px 2px 5px;
+}
+
+#button:hover{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(245, 159, 0, 0.897);
+    font-size: 1em;
+}
+
+#footer {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 10px 20px 10px 20px;
+    text-align: right;
+    background-color: rgb(202, 202, 202);
+}
